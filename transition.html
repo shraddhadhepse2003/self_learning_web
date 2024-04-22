@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .transform{
+            width: 300px;
+            height: 300px;
+            border: 2px solid black;
+            background-color: red;
+            text-align: center;
+            margin: 100px;
+            transition-property: transform width height;
+            transition-duration: 4s;
+        }
+        .transform:hover{
+            background-color: green;
+            /*transform: translate(200px);*/
+            width: 200px;
+            height: 200px;
+            transform: rotate(90deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="transform">this is a transition</div>
+</body>
+</html>
